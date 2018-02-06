@@ -1,0 +1,133 @@
+body{
+    /* background: #E1E1E3; */
+    background: #FFFFFF;
+    color: #0F1018;
+    /* font-family: Montserrat; */
+    /* margin: 0 auto; */
+        position: relative;
+        overflow-x: hidden;
+}
+h1
+{
+    color: #0F1018;
+}
+
+
+
+.navbar{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background: #0F1018;
+    transition-duration: 0.4s;
+}
+
+.navbar-nav{
+    width: 100%;
+}
+.container-fluid{
+    height: 1000px;
+    padding: 0;
+}
+.landing-image{
+    background-image: url(../img/20161028_164931-opti.jpg);
+    position: relative;
+    background-attachment: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    filter: contrast(80%)
+}
+.landing-image h1{
+    color: rgb(255, 251, 8);
+    padding-top: 5%;
+}
+
+.about-left{
+    background: #6CCE6D;
+    color: #FFFFFF;
+    padding-top: 5%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+.work-right{
+    background: #1BA2C8;
+    color: #FFFFFF;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+.landing-icon{
+    background: url(../img/bouton-descente-03-jaune.svg);
+    width: 3.5%;
+    height: 3.5%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.nav-links-1{
+    color: rgba(255, 255, 255, 0.5);
+    transition-duration: 0.3s;
+}
+
+.nav-links-2{
+    color: #CF1C26 !important;
+    transition-duration: 0.3s;
+    /* font-weight: 700; */
+    /* font-size: 1.5rem; */
+}
+
+.landing-icon:hover{
+    background: url(../img/bouton-descente-rouge-01.svg);
+}
+.active{
+    color: rgb(255, 82, 59);
+    font-weight: 600;
+}
+.about-content{
+    font-size: 1.52rem;
+}
+#about{
+    padding-top: 5%;
+    position: relative;
+    background: #FFFFFF;
+}
+
+#x-button{
+    font-size: 2rem;
+}
+#my-work{
+    margin-top: 15%;
+    padding-top: 10%;
+    transition: 0.3s;
+}
+@media(max-width:720px){
+    .landing-image{
+        background-image: url(../img/Snapchat-849821326.jpg);
+    }
+    .landing-image h1{
+        color:#CF1C26;
+    }
+    .navbar{
+        background: #0F1018 !important;
+    }
+    .about-right{
+        padding: 0;
+    }
+    .work-left{
+        padding: 0;
+    }
+    .nav-links-2{
+        color: rgba(255, 255, 255, 0.5) !important;
+        transition-duration: 0.3s;
+    }
+    .navbar-brand{
+        color: #FFFFFF !important;
+    }
+    .about-content{
+        font-size: 1.35rem;
+        padding-bottom: 10%;
+    }
+    
+}
+
+
